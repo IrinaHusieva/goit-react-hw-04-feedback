@@ -1,0 +1,23 @@
+button {
+  border-radius: 10px;
+  padding: 7px 10px;
+  border: none;
+  width: 100px;
+  cursor: pointer;
+}
+button:hover {
+  color: aliceblue;
+}
+.btns {
+  display: flex;
+  gap: 10px;
+}
+.good {
+  background-color: rgba(38, 152, 57, 0.589);
+}
+.neutral {
+  background-color: rgba(255, 166, 0, 0.482);
+}
+.bad {
+  background-color: rgba(160, 27, 27, 0.633);
+}
